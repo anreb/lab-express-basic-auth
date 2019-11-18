@@ -9,7 +9,7 @@ const {
 	main,
 	private
 } = require('../controllers/index.controller');
-const checkSession = require('../middlewares/checkSession');
+const { checkSession } = require('../middlewares/checkSession');
 
 /* GET home page */
 router.get('/', home);
